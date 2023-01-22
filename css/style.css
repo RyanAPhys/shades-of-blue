@@ -1,0 +1,56 @@
+:root {
+	--border-radius: 10pt;
+    --margin: 10pt;
+    --padding: 10pt;
+    --second_colour: #5375a0;
+}
+
+body {
+    background-image: url(../resources/blue_bokeh.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#page {
+    background-color: #ABD0FD;
+    width: 80%;
+    max-width: 1000pt;
+    margin: auto;
+    margin-top: 40pt;
+    border-radius: var(--border-radius);
+    text-align: center;
+    padding: var(--padding);
+}
+
+#tagline {
+    color: var(--second_colour);
+}
+
+.inline-content {
+    margin: var(--margin);
+    max-width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.shadow {
+    box-shadow: #004bad46 3pt 3pt;
+}
+
+.subtitle {
+    color: var(--second_colour);
+    text-align: left;
+    max-width: 90%;
+    margin-left: auto;
+}
+
+hr {
+    border: 2pt solid var(--second_colour);
+    border-radius: 5pt;
+    width: 80%;
+}
+
+.text-block {
+    max-width: 80%;
+    margin: auto;
+}
